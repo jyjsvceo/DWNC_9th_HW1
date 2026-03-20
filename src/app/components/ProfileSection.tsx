@@ -14,7 +14,7 @@ export function ProfileSection() {
       <div className="space-y-2">
         <h1 className="text-4xl">홍길동</h1>
         <p className="text-xl text-gray-600 max-w-md">
-          문제를 해결하고 가치를 만드는 것을 좋아하는 개발자입니다
+          인간으로서 해볼 수 있는 모든 경험을 해보고 싶습니다.
         </p>
       </div>
     </div>

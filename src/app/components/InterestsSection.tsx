@@ -32,22 +32,16 @@ export function InterestsSection() {
   const interests: InterestItem[] = [
     { name: '스타트업', description: '새로운 아이디어를 빠르게 실현하고 성장시키는 과정에 관심이 많습니다.' },
     { name: '교육', description: '지식을 공유하고 다른 사람의 성장을 돕는 것에 보람을 느낍니다.' },
-    { name: '문제 해결', description: '복잡한 문제를 분석하고 효율적인 해결책을 찾는 것을 즐깁니다.' },
-    { name: '생산성', description: '더 적은 노력으로 더 많은 가치를 만드는 방법을 탐구합니다.' },
-    { name: 'UI/UX', description: '사용자 경험을 개선하고 직관적인 인터페이스를 디자인하는 데 관심이 있습니다.' },
+    { name: '바이브코딩', description: '머릿속의 아이디어를 실제 프로덕트로 만드는 과정을 즐깁니다.' },
   ];
 
   const techStack = {
     proficient: [
       { name: 'Notion', description: '생산성 도구로 활용하며 문서화와 지식 관리에 사용합니다.' },
-      { name: 'Python', description: '데이터 처리와 자동화 스크립트 작성에 능숙합니다.' },
-      { name: 'React(기초)', description: '컴포넌트 기반 UI 개발의 기본 개념을 이해하고 있습니다.' },
-      { name: 'JavaScript', description: '웹 개발의 핵심 언어로 활용할 수 있습니다.' },
-      { name: 'TypeScript', description: '타입 안전성을 갖춘 JavaScript로 개발합니다.' },
+      { name: 'Figma', description: 'UI 구성에 사용합니다' },
+      { name: 'Cursor', description: '코드 수정 및 각종 연동에 이용합니다' },
     ],
     learning: [
-      { name: 'Next.js', description: 'React 기반 풀스택 프레임워크를 학습하고 있습니다.' },
-      { name: 'Firebase', description: '백엔드 서비스와 실시간 데이터베이스 활용법을 익히는 중입니다.' },
       { name: 'Supabase', description: '오픈소스 Firebase 대안으로 백엔드 개발을 공부하고 있습니다.' },
     ],
   };
